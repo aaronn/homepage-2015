@@ -113,11 +113,11 @@ html, body {
 
 /* line 212, styles.scss */
 .hairline {
-  background-color: white; }
+  background-color: #FFFFFF; }
 
 /* line 216, styles.scss */
 .splash {
-  background-color: black;
+  background-color: #000000;
   text-shadow: 0px 2px rgba(51, 51, 51, 0.6); }
   /* line 220, styles.scss */
   .splash .container {
@@ -143,7 +143,7 @@ html, body {
       width: 100%;
       margin: 0 auto;
       padding: 0;
-      background-color: rgba(0, 0, 0, 0); }
+      background-color: transparent; }
   /* line 238, styles.scss */
   .splash .hairline {
     width: 300px;
@@ -217,13 +217,13 @@ html, body {
   letter-spacing: 4px;
   padding-left: 4px;
   padding-bottom: 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
   display: inline-block;
   text-align: center; }
 
 /* line 315, styles.scss */
 .projects {
-  background-color: white;
+  background-color: #FFFFFF;
   height: auto;
   max-height: auto; }
   /* line 320, styles.scss */
@@ -304,31 +304,31 @@ html, body {
     -o-transition: background-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out; }
   /* line 402, styles.scss */
-  .projects .primary-project, .projects .secondary-project {
+  .projects .primary-project, .projects .secondary-project, .projects .project {
     width: 50%;
     display: inline-block;
     position: relative;
-    color: white;
+    color: #FFFFFF;
     overflow: hidden;
     vertical-align: top; }
     @media screen and (max-width: 640px) {
       /* line 402, styles.scss */
-      .projects .primary-project, .projects .secondary-project {
+      .projects .primary-project, .projects .secondary-project, .projects .project {
         display: block;
         float: none;
         width: 100%; } }
     /* line 416, styles.scss */
-    .projects .primary-project:hover > .project-container > .project-body, .projects .secondary-project:hover > .project-container > .project-body {
+    .projects .primary-project:hover > .project-container > .project-body, .projects .primary-project.hover > .project-container > .project-body, .projects .secondary-project:hover > .project-container > .project-body, .projects .secondary-project.hover > .project-container > .project-body, .projects .project:hover > .project-container > .project-body, .projects .project.hover > .project-container > .project-body {
       visibility: visible;
       color: white; }
       /* line 420, styles.scss */
-      .projects .primary-project:hover > .project-container > .project-body a, .projects .secondary-project:hover > .project-container > .project-body a {
+      .projects .primary-project:hover > .project-container > .project-body a, .projects .primary-project.hover > .project-container > .project-body a, .projects .secondary-project:hover > .project-container > .project-body a, .projects .secondary-project.hover > .project-container > .project-body a, .projects .project:hover > .project-container > .project-body a, .projects .project.hover > .project-container > .project-body a {
         color: white; }
     /* line 425, styles.scss */
-    .projects .primary-project:hover > .project-container, .projects .secondary-project:hover > .project-container {
+    .projects .primary-project:hover > .project-container, .projects .primary-project.hover > .project-container, .projects .secondary-project:hover > .project-container, .projects .secondary-project.hover > .project-container, .projects .project:hover > .project-container, .projects .project.hover > .project-container {
       margin-top: 0; }
     /* line 429, styles.scss */
-    .projects .primary-project:hover > .project-overlay, .projects .secondary-project:hover > .project-overlay {
+    .projects .primary-project:hover > .project-overlay, .projects .primary-project.hover > .project-overlay, .projects .secondary-project:hover > .project-overlay, .projects .secondary-project.hover > .project-overlay, .projects .project:hover > .project-overlay, .projects .project.hover > .project-overlay {
       background-color: rgba(74, 77, 94, 0.8); }
   /* line 442, styles.scss */
   .projects .project-container {
@@ -352,7 +352,7 @@ html, body {
   /* line 455, styles.scss */
   .projects .secondary-project {
     height: 400px;
-    background-color: black; }
+    background-color: #000000; }
   /* line 460, styles.scss */
   .projects ul {
     margin-top: 30px; }
@@ -364,7 +364,7 @@ html, body {
         margin-right: 30px; }
       /* line 469, styles.scss */
       .projects ul li a {
-        color: white;
+        color: #FFFFFF;
         padding-bottom: 2px;
         border-bottom: 2px solid rgba(255, 255, 255, 0);
         -webkit-transition: border-bottom 0.15s ease-in-out;
@@ -453,9 +453,9 @@ html, body {
 .blog a {
   text-transform: uppercase;
   font-weight: bold;
-  color: black;
+  color: #000000;
   padding-bottom: 2px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid transparent;
   -webkit-transition: border-bottom 0.15s ease-in-out;
   -moz-transition: border-bottom 0.15s ease-in-out;
   -ms-transition: border-bottom 0.15s ease-in-out;
@@ -476,7 +476,7 @@ html, body {
 
 /* line 614, styles.scss */
 .history {
-  background-color: black;
+  background-color: #000000;
   height: auto;
   max-height: auto; }
   /* line 619, styles.scss */
@@ -492,7 +492,7 @@ html, body {
     background-size: cover; }
     /* line 630, styles.scss */
     .history .background .background-overlay {
-      background-color: rgba(0, 0, 0, 0);
+      background-color: transparent;
       height: 100%;
       width: 100%;
       margin: 0 auto;
@@ -500,10 +500,10 @@ html, body {
   /* line 636, styles.scss */
   .history .title {
     color: white;
-    border-bottom: 2px solid white; }
+    border-bottom: 2px solid #FFFFFF; }
   /* line 641, styles.scss */
   .history .history-paper {
-    background-color: white;
+    background-color: #FFFFFF;
     height: 100%;
     margin: 60px auto 0;
     max-width: 800px;
@@ -524,14 +524,14 @@ html, body {
   .history .history-title {
     font-size: 36px;
     text-transform: uppercase;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
     display: inline-block;
     padding: 0 6px 3px 6px; }
   /* line 660, styles.scss */
   .history .history-body {
-    border-top: 2px solid black;
+    border-top: 2px solid #000000;
     width: 400px;
     margin: 0 auto;
     margin-bottom: 60px;
@@ -563,7 +563,7 @@ html, body {
 
 /* line 699, styles.scss */
 .contact {
-  background-color: black;
+  background-color: #000000;
   height: auto;
   max-height: auto; }
   /* line 704, styles.scss */
@@ -577,7 +577,7 @@ html, body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    background-color: black;
+    background-color: #000000;
     position: absolute;
     background-image: url("../img/mountain.jpg");
     background-position: center;
@@ -593,11 +593,11 @@ html, body {
   /* line 720, styles.scss */
   .contact .title {
     color: white;
-    border-bottom: 2px solid white; }
+    border-bottom: 2px solid #FFFFFF; }
   /* line 724, styles.scss */
   .contact .contact-footnote {
     margin-top: 60px;
-    color: white;
+    color: #FFFFFF;
     margin-bottom: 60px;
     opacity: 0.8; }
 
@@ -637,7 +637,7 @@ html, body {
     line-height: 20px; }
   /* line 770, styles.scss */
   .contact-items li {
-    background-color: white;
+    background-color: #FFFFFF;
     height: 60px; }
     /* line 773, styles.scss */
     .contact-items li:hover {
@@ -656,10 +656,10 @@ html, body {
       display: block; }
       /* line 782, styles.scss */
       .contact-items li a:hover > div > div {
-        color: white; }
+        color: #FFFFFF; }
       /* line 786, styles.scss */
       .contact-items li a div {
-        color: black;
+        color: #000000;
         margin-top: 22px; }
       /* line 791, styles.scss */
       .contact-items li a .contact-container {
@@ -697,3 +697,5 @@ html, body {
       /* line 803, styles.scss */
       .contact-items li:last-child .contact-container {
         border-bottom: 0; }
+
+/*# sourceMappingURL=styles.css.map */
