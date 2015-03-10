@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var position = 0;
 
+	var position = 0;
 	// Splash Section
 	var splash = $('.splash');
 	var splashContainer = splash.find('.container');
@@ -9,6 +9,11 @@ $(document).ready(function(){
 	var splashBackgroundOverlay = splash.find('.background-overlay');
 	var splashOverlayOpacity;
 	var arrow = $('.arrow');
+
+	$('.arrow').click(function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: splash.height()/2 }, 200);
+	});
 
 	function animateOverlay(){
 		var contentOpacity = (splashOffset - position) / splashOffset;
