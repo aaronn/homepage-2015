@@ -301,7 +301,7 @@ html, body{
             top: 3px;
             width: 24px;
         }
-        @media screen and (max-width:$breakpoint-small-width){
+        @media screen and (max-width:$breakpoint-medium-width){
             display:none;
         }
     }
@@ -571,6 +571,11 @@ ul{
 
 .blogging{
     margin-top: -100px;
+
+    @media screen and (max-width: $breakpoint-small-width){
+        margin-top: -75px;
+
+    }
 
 }
 

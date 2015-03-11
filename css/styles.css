@@ -212,7 +212,7 @@ html, body {
       position: relative;
       top: 3px;
       width: 24px; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       /* line 280, styles.scss */
       .splash .arrow {
         display: none; } }
@@ -441,27 +441,31 @@ html, body {
 /* line 572, styles.scss */
 .blog .blogging {
   margin-top: -100px; }
-/* line 577, styles.scss */
+  @media screen and (max-width: 480px) {
+    /* line 572, styles.scss */
+    .blog .blogging {
+      margin-top: -75px; } }
+/* line 582, styles.scss */
 .blog .blogging-title {
   font-family: "freight-big-pro", serif;
   font-weight: 700;
   font-size: 120px; }
-/* line 583, styles.scss */
+/* line 588, styles.scss */
 .blog .blogging-body {
   font-size: 24px;
   width: 367px;
   margin: 0 auto;
   line-height: 26px; }
   @media screen and (max-width: 480px) {
-    /* line 583, styles.scss */
+    /* line 588, styles.scss */
     .blog .blogging-body {
       width: 280px;
       font-size: 18px;
       margin-top: 15px; } }
-/* line 598, styles.scss */
+/* line 603, styles.scss */
 .blog .blue {
   color: #488FDC; }
-/* line 602, styles.scss */
+/* line 607, styles.scss */
 .blog a {
   text-transform: uppercase;
   font-weight: bold;
@@ -473,25 +477,25 @@ html, body {
   -ms-transition: border-bottom 0.15s ease-in-out;
   -o-transition: border-bottom 0.15s ease-in-out;
   transition: border-bottom 0.15s ease-in-out; }
-  /* line 610, styles.scss */
+  /* line 615, styles.scss */
   .blog a:hover {
     border-bottom: 2px solid black; }
-/* line 615, styles.scss */
+/* line 620, styles.scss */
 .blog .blogging-nav {
   margin-top: 30px; }
-  /* line 617, styles.scss */
+  /* line 622, styles.scss */
   .blog .blogging-nav li {
     display: inline-block; }
-  /* line 621, styles.scss */
+  /* line 626, styles.scss */
   .blog .blogging-nav li:first-child {
     margin-right: 30px; }
 
-/* line 627, styles.scss */
+/* line 632, styles.scss */
 .history {
   background-color: black;
   height: auto;
   max-height: auto; }
-  /* line 632, styles.scss */
+  /* line 637, styles.scss */
   .history .background {
     width: 100%;
     height: 100%;
@@ -502,18 +506,18 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-    /* line 643, styles.scss */
+    /* line 648, styles.scss */
     .history .background .background-overlay {
       background-color: rgba(0, 0, 0, 0);
       height: 100%;
       width: 100%;
       margin: 0 auto;
       padding: 0; }
-  /* line 649, styles.scss */
+  /* line 654, styles.scss */
   .history .title {
     color: white;
     border-bottom: 2px solid white; }
-  /* line 654, styles.scss */
+  /* line 659, styles.scss */
   .history .history-paper {
     background-color: white;
     height: 100%;
@@ -532,7 +536,7 @@ html, body {
     -moz-border-radius-bottomleft: 0px;
     -webkit-border-bottom-left-radius: 0px;
     border-bottom-left-radius: 0px; }
-  /* line 663, styles.scss */
+  /* line 668, styles.scss */
   .history .history-title {
     font-size: 36px;
     text-transform: uppercase;
@@ -541,7 +545,7 @@ html, body {
     border-right: 2px solid black;
     display: inline-block;
     padding: 0 6px 3px 6px; }
-  /* line 673, styles.scss */
+  /* line 678, styles.scss */
   .history .history-body {
     border-top: 2px solid black;
     width: 400px;
@@ -550,35 +554,35 @@ html, body {
     padding-top: 60px;
     font-size: 18px; }
     @media screen and (max-width: 480px) {
-      /* line 673, styles.scss */
+      /* line 678, styles.scss */
       .history .history-body {
         width: 300px; } }
-  /* line 687, styles.scss */
+  /* line 692, styles.scss */
   .history .history-list li {
     margin-bottom: 30px; }
-  /* line 692, styles.scss */
+  /* line 697, styles.scss */
   .history .ss-icon {
     font-size: 60px;
     margin-bottom: 30px; }
     @media screen and (max-width: 480px) {
-      /* line 692, styles.scss */
+      /* line 697, styles.scss */
       .history .ss-icon {
         font-size: 48px;
         text-align: center; } }
-  /* line 702, styles.scss */
+  /* line 707, styles.scss */
   .history .edu-list {
     font-weight: 500;
     font-size: 18px; }
-    /* line 706, styles.scss */
+    /* line 711, styles.scss */
     .history .edu-list li {
       margin-bottom: 30px; }
 
-/* line 712, styles.scss */
+/* line 717, styles.scss */
 .contact {
   background-color: black;
   height: auto;
   max-height: auto; }
-  /* line 717, styles.scss */
+  /* line 722, styles.scss */
   .contact .background {
     position: relative;
     top: 50%;
@@ -595,45 +599,45 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-    /* line 727, styles.scss */
+    /* line 732, styles.scss */
     .contact .background .background-overlay {
       background-color: rgba(0, 0, 0, 0.8);
       height: 100%;
       width: 100%;
       margin: 0 auto;
       padding: 0; }
-  /* line 733, styles.scss */
+  /* line 738, styles.scss */
   .contact .title {
     color: white;
     border-bottom: 2px solid white; }
-  /* line 737, styles.scss */
+  /* line 742, styles.scss */
   .contact .contact-footnote {
     margin-top: 60px;
     color: white;
     margin-bottom: 60px;
     opacity: 0.8; }
 
-/* line 745, styles.scss */
+/* line 750, styles.scss */
 .contact-items {
   width: 400px;
   margin: 60px auto 0; }
   @media screen and (max-width: 480px) {
-    /* line 745, styles.scss */
+    /* line 750, styles.scss */
     .contact-items {
       width: 300px; } }
-  /* line 753, styles.scss */
+  /* line 758, styles.scss */
   .contact-items .contact-icon {
     font-size: 24px;
     float: left;
     margin-left: 15px; }
-  /* line 759, styles.scss */
+  /* line 764, styles.scss */
   .contact-items .contact-name {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 18px;
     margin-left: 15px;
     float: left; }
-  /* line 767, styles.scss */
+  /* line 772, styles.scss */
   .contact-items .contact-username {
     float: right;
     margin-right: 5px;
@@ -641,20 +645,20 @@ html, body {
     text-transform: none;
     font-weight: 300;
     line-height: 12px; }
-  /* line 776, styles.scss */
+  /* line 781, styles.scss */
   .contact-items .contact-chevron {
     float: right;
     margin-right: 15px;
     color: #919699;
     line-height: 20px; }
-  /* line 783, styles.scss */
+  /* line 788, styles.scss */
   .contact-items li {
     background-color: white;
     height: 60px; }
-    /* line 786, styles.scss */
+    /* line 791, styles.scss */
     .contact-items li:hover {
       background-color: #09F; }
-    /* line 790, styles.scss */
+    /* line 795, styles.scss */
     .contact-items li a {
       position: relative;
       top: 50%;
@@ -666,19 +670,19 @@ html, body {
       margin: 0 auto;
       padding: 0;
       display: block; }
-      /* line 795, styles.scss */
+      /* line 800, styles.scss */
       .contact-items li a:hover > div > div {
         color: white; }
-      /* line 799, styles.scss */
+      /* line 804, styles.scss */
       .contact-items li a div {
         color: black;
         margin-top: 22px; }
-      /* line 804, styles.scss */
+      /* line 809, styles.scss */
       .contact-items li a .contact-container {
         height: 100%;
         border-bottom: 1px solid #EFEFEF;
         margin: 0 auto; }
-    /* line 811, styles.scss */
+    /* line 816, styles.scss */
     .contact-items li:first-child {
       -webkit-border-top-left-radius: 5px;
       -moz-border-radius-topleft: 5px;
@@ -692,7 +696,7 @@ html, body {
       -moz-border-radius-bottomleft: 0px;
       -webkit-border-bottom-left-radius: 0px;
       border-bottom-left-radius: 0px; }
-    /* line 815, styles.scss */
+    /* line 820, styles.scss */
     .contact-items li:last-child {
       -webkit-border-top-left-radius: 0px;
       -moz-border-radius-topleft: 0px;
@@ -706,6 +710,6 @@ html, body {
       -moz-border-radius-bottomleft: 5px;
       -webkit-border-bottom-left-radius: 5px;
       border-bottom-left-radius: 5px; }
-      /* line 816, styles.scss */
+      /* line 821, styles.scss */
       .contact-items li:last-child .contact-container {
         border-bottom: 0; }
